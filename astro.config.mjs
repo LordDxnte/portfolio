@@ -67,7 +67,6 @@ export default defineConfig({
     UnoCSS({ injectReset: true }),
     icon(),
     svelte(),
-    db(),
   ],
   markdown: {
     remarkPlugins: [remarkReadingTime],
