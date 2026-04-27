@@ -2,7 +2,7 @@
   "name": "astro-bento-portfolio",
   "type": "module",
   "version": "0.0.2",
-"scripts": {
+  "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.8",
-    "@astrojs/db": "^0.20.1",
     "@astrojs/netlify": "^7.0.6",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
