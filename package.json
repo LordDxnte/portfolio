@@ -2,16 +2,16 @@
   "name": "astro-bento-portfolio",
   "type": "module",
   "version": "0.0.2",
-  "scripts": {
+"scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build --remote",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
     "site-setup": "node scripts/setup.mjs",
     "eslint": "eslint 'src/**/*.{js,astro}'",
     "check": "astro check",
-    "prepare": "husky"
+    "prepare": ""
   },
   "dependencies": {
     "@astrojs/check": "^0.9.8",
