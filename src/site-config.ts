@@ -1,49 +1,29 @@
 export const SITE = {
   site: {
-    url: "https://gianmarcocavallo.com/",
+    url: "https://lorddxnte.github.io/portfolio", // Put your future Github pages link here
   },
   author: {
-    firstName: "Gianmarco",
-    lastName: "Cavallo",
-    fullName: "Gianmarco Cavallo",
-    shortName: "Gianmarco",
-    jobTitle: "Freelance Full Stack Developer",
-    twitterHandle: "gianmarcocavallo", // without "@"
+    firstName: "Umais",
+    lastName: "Jafry",
+    fullName: "Umais Jafry",
+    shortName: "Umais",
+    jobTitle: "Python/AI Automation Engineer", // Capitalized "Engineer" for a cleaner look
+    twitterHandle: "EzraDante", // without "@"
   },
   location: {
-    countryName: "Italy",
-    countryCode: "IT",
-    timezone: "Europe/Rome",
+    countryName: "Pakistan",
+    countryCode: "PK",
+    timezone: "Asia/Karachi", // Standardized timezone code
   },
   links: {
-    github: "https://github.com/Ladvace",
-    linkedin: "https://www.linkedin.com/in/gianmarco-cavallo/",
-    medium: "https://ladvace.medium.com/",
-    discord: "https://discordapp.com/users/163300027618295808",
-    dribble: "https://dribbble.com/Ladvace_Jace",
-    email: "contact@gianmarcocavallo.com",
-  },
+    github: "https://github.com/LordDxnte",
+    linkedin: "https://www.linkedin.com/in/Umais-Jafry/",
+    discord: "https://discordapp.com/users/736960489719988344",
+    email: "lorddxnte603@gmail.com",
+  }, // <-- Added the missing closing brace for links
   cal: {
-    username: "ladvace",
+    username: "umais-jafry",
     durationNamespace: "15min",
     origin: "https://cal.com",
   },
-  visitedCountries: [
-    "France",
-    "China",
-    "Italy",
-    "Sri Lanka",
-    "Uzbekistan",
-    "Turkey",
-    "Greece",
-    "Malta",
-    "Hungary",
-    "Portugal",
-    "Morocco",
-    "Greece",
-    "Spain",
-    "Netherlands",
-    "Belgium",
-    "Spain",
-  ],
-};
+}; // <-- Added the missing closing brace for the whole SITE object
