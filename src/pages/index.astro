@@ -38,7 +38,6 @@ const SITE = {
 
   animate(sequence as AnimationSequence);
 
-  // Immediate fix for the "Blank Screen" loader issue
   document.addEventListener("DOMContentLoaded", () => {
     const loader = document.querySelector('.loader');
     if (loader) {
@@ -52,49 +51,51 @@ const SITE = {
   description="AI & Automation Developer specializing in Python and LLMs."
   title="Umais Jafry - Portfolio"
 >
-  <main class="text-white m-auto p-2 grid gap-2 max-w-6xl md:grid-cols-2 lg:grid-rows-8 lg:grid-cols-4 lg:gap-4 w-full">    
+  <main class="text-white m-auto p-2 grid gap-2 max-w-6xl md:grid-cols-2 lg:grid-rows-6 lg:grid-cols-4 lg:gap-4 w-full">    
+    
     <IntroCard />
     <AboutMe />
+    
+    <Card colSpan="md:col-span-2" rowSpan="md:row-span-3" title="Featured Projects">
+      <div class="flex flex-col gap-4 mt-2"> 
+        <div class="group">
+          <a href="/playground/ai-email-agent" class="block hover:opacity-80 transition-opacity">
+            <h3 class="font-bold text-lg text-primary flex items-center gap-2">
+              AI Email Agent <span class="text-sm opacity-0 group-hover:opacity-100 transition-opacity text-neutral-400">→</span>
+            </h3>
+            <p class="text-sm text-neutral-300">
+              Autonomous email reading and Discord routing using Python and CrewAI.
+            </p>
+          </a>
+        </div>
+
+        <div class="group">
+          <a href="https://github.com/LordDxnte/dantes-item-forge" target="_blank" class="block hover:opacity-80 transition-opacity">
+            <h3 class="font-bold text-lg text-primary flex items-center gap-2">
+              Dante's Item Forge <span class="text-sm opacity-0 group-hover:opacity-100 transition-opacity text-neutral-400">→</span>
+            </h3>
+            <p class="text-sm text-neutral-300">
+              High-speed gaming item optimizer using Python and Groq LPU inference.
+            </p>
+          </a>
+        </div>
+
+        <div class="group">
+          <a href="/playground/workflow-macros" class="block hover:opacity-80 transition-opacity">
+            <h3 class="font-bold text-lg text-primary flex items-center gap-2">
+              Visual Automation Engine <span class="text-sm opacity-0 group-hover:opacity-100 transition-opacity text-neutral-400">→</span>
+            </h3>
+            <p class="text-sm text-neutral-300">
+              Secure, vision-based macros for legacy systems and complex UI environments.
+            </p>
+          </a>
+        </div>
+      </div>
+    </Card>
+
     <ContactsCard />
     <TimeZone />
     <Now />
-
-<Card colSpan="md:col-span-2" rowSpan="md:row-span-4" title="Featured Projects">
-  <div class="flex flex-col gap-4 mt-2"> <div class="group">
-      <a href="/playground/ai-email-agent" class="block hover:opacity-80 transition-opacity">
-        <h3 class="font-bold text-lg text-primary flex items-center gap-2">
-          AI Email Agent <span class="text-sm opacity-0 group-hover:opacity-100 transition-opacity text-neutral-400">→</span>
-        </h3>
-        <p class="text-sm text-neutral-300">
-          Autonomous email reading and Discord routing using Python and CrewAI.
-        </p>
-      </a>
-    </div>
-
-    <div class="group">
-      <a href="https://github.com/LordDxnte/dantes-item-forge" target="_blank" class="block hover:opacity-80 transition-opacity">
-        <h3 class="font-bold text-lg text-primary flex items-center gap-2">
-          Dante's Item Forge <span class="text-sm opacity-0 group-hover:opacity-100 transition-opacity text-neutral-400">→</span>
-        </h3>
-        <p class="text-sm text-neutral-300">
-          High-speed gaming item optimizer using Python and Groq LPU inference. Native desktop integration with local config security.
-        </p>
-      </a>
-    </div>
-
-    <div class="group">
-      <a href="/playground/workflow-macros" class="block hover:opacity-80 transition-opacity">
-        <h3 class="font-bold text-lg text-primary flex items-center gap-2">
-          Visual Automation Engine <span class="text-sm opacity-0 group-hover:opacity-100 transition-opacity text-neutral-400">→</span>
-        </h3>
-        <p class="text-sm text-neutral-300">
-          Secure, vision-based macros for legacy systems and complex UI environments.
-        </p>
-      </a>
-    </div>
-
-  </div>
-</Card>
     <ThemeChangeCard />
 
     <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
