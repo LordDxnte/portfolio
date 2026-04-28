@@ -17,8 +17,8 @@ export const SITE = {
   },
   links: {
     github: "https://github.com/LordDxnte",
-    linkedin: "https://www.linkedin.com/in/Umais-Jafry/",
-    discord: "https://discordapp.com/users/736960489719988344",
+    linkedin: "https://www.linkedin.com/in/umais-jafry-ba81b33a0/",
+    discord: "https://discord.gg/hx3JWBPCeC",
     email: "lorddxnte603@gmail.com",
   }, // <-- Added the missing closing brace for links
   cal: {
